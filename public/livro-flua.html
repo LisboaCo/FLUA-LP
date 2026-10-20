@@ -1,0 +1,1386 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-PTHHVRRJ');</script>
+  <!-- End Google Tag Manager -->
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Livro FLUA | Ciência, Consciência e Espiritualidade — Evaro e Rosangela</title>
+  <meta name="description" content="FLUA, de Evaro e Rosangela, une conhecimento científico, consciência e espiritualidade para quem deseja sair do piloto automático e viver com mais propósito, prosperidade e abundância.">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#04120f">
+
+  <meta property="og:title" content="FLUA — porque a vida é feita para fluir">
+  <meta property="og:description" content="Um novo olhar sobre a vida, unindo ciência, consciência e espiritualidade. Para quem deseja compreender melhor a si mesmo e construir uma vida com mais propósito.">
+  <meta property="og:type" content="book">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:site_name" content="FLUA Vivência Quântica">
+  <meta property="og:image" content="/static/img/Livro/pc.png">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="/static/img/favicon.png">
+  <link rel="preload" as="image" href="/static/img/Livro/mobile.png" media="(max-width: 859px)">
+  <link rel="preload" as="image" href="/static/img/Livro/pc.png" media="(min-width: 860px)">
+
+  <script src="/static/tracking.js" defer></script>
+
+  <style>
+    :root {
+      /* base escura com cast verde — mesmo sistema das demais LPs da FLUA */
+      --ink: #04120f;
+      --ink-2: #071a16;
+      --line: rgba(255, 255, 255, 0.09);
+      --text: #f2f7f5;
+      --muted: rgba(242, 247, 245, 0.66);
+      --muted-soft: rgba(242, 247, 245, 0.48);
+
+      --green: #23f99e;
+      --green-soft: #5cf6bb;
+      --green-mid: #18cd9d;
+      --green-deep: #05cc76;
+      --green-ink: #03231a;
+
+      --light-ink: #06251b;
+      --max: 1120px;
+      --radius: 18px;
+      --radius-lg: 26px;
+    }
+
+    * { box-sizing: border-box; }
+
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: 84px;
+    }
+
+    body {
+      margin: 0;
+      background: var(--ink);
+      color: var(--text);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-size: 16px;
+      line-height: 1.6;
+      overflow-x: hidden;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    img { display: block; max-width: 100%; height: auto; }
+    a { color: inherit; text-decoration: none; }
+    ul, ol { margin: 0; padding: 0; list-style: none; }
+    h1, h2, h3, p { margin: 0; }
+    button { font: inherit; }
+
+    .container {
+      width: min(var(--max), calc(100% - 40px));
+      margin-inline: auto;
+    }
+
+    /* ---------- blocos base ---------- */
+
+    .section {
+      position: relative;
+      padding: clamp(68px, 8.5vw, 116px) 0;
+      overflow: hidden;
+    }
+
+    /* Ritmo de cor: duas faixas escuras, uma clara, uma vibrante. */
+    .section--dark { background: var(--ink-2); }
+
+    .section--deep {
+      background:
+        radial-gradient(72% 58% at 14% 0%, rgba(35, 249, 158, 0.18), transparent 66%),
+        radial-gradient(52% 46% at 92% 88%, rgba(92, 246, 187, 0.12), transparent 68%),
+        linear-gradient(180deg, #06201f 0%, #04120f 100%);
+    }
+
+    .section--light {
+      background: linear-gradient(180deg, #f2fcf7 0%, #ddf6ea 100%);
+      color: var(--light-ink);
+    }
+
+    .section-head { max-width: 720px; }
+    .section-head--center { margin-inline: auto; text-align: center; }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      margin-bottom: 18px;
+      color: var(--green);
+      font-size: 0.74rem;
+      font-weight: 700;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+    }
+
+    .section-head--center .eyebrow { justify-content: center; }
+
+    h1, h2 {
+      font-weight: 700;
+      line-height: 1.14;
+      letter-spacing: -0.02em;
+    }
+
+    h1 {
+      font-size: clamp(1.95rem, 4vw, 3.05rem);
+      text-wrap: pretty;
+    }
+
+    h2 {
+      font-size: clamp(1.65rem, 3.4vw, 2.5rem);
+      text-wrap: balance;
+    }
+
+    h3 {
+      font-size: 1.02rem;
+      font-weight: 650;
+      line-height: 1.3;
+      letter-spacing: -0.01em;
+    }
+
+    .lead {
+      margin-top: 20px;
+      color: var(--muted);
+      font-size: clamp(1rem, 1.5vw, 1.13rem);
+      text-wrap: pretty;
+    }
+
+    .accent {
+      background: linear-gradient(100deg, var(--green) 8%, var(--green-soft) 92%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+
+    /* sobrescritas da faixa clara */
+    .section--light .lead,
+    .section--light .arrow-list li { color: rgba(6, 37, 27, 0.72); }
+
+    .section--light .eyebrow { color: #04915a; }
+
+    .section--light .accent {
+      background: linear-gradient(100deg, #04a066 8%, #0a8f74 92%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+
+    .section--light .arrow-list svg { color: #04915a; }
+
+    /* ---------- botoes ---------- */
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      gap: 10px;
+      min-height: 56px;
+      padding: 14px 30px;
+      border: 0;
+      border-radius: 999px;
+      background: linear-gradient(100deg, var(--green-deep), var(--green-mid) 42%, var(--green));
+      color: var(--green-ink);
+      font-size: 0.94rem;
+      font-weight: 750;
+      letter-spacing: 0.01em;
+      text-align: center;
+      cursor: pointer;
+      overflow: hidden;
+      transition: transform 180ms ease, box-shadow 180ms ease, filter 180ms ease;
+      box-shadow: 0 14px 34px rgba(5, 204, 118, 0.32);
+    }
+
+    /* brilho que percorre o botao em loop */
+    .btn::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: -70%;
+      width: 45%;
+      height: 100%;
+      background: linear-gradient(100deg, transparent, rgba(255, 255, 255, 0.55), transparent);
+      transform: skewX(-18deg);
+      animation: btn-shine 3.8s ease-in-out infinite;
+      pointer-events: none;
+    }
+
+    @keyframes btn-shine {
+      0% { left: -70%; }
+      45% { left: 135%; }
+      100% { left: 135%; }
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+      filter: brightness(1.06);
+      box-shadow: 0 18px 40px rgba(24, 205, 157, 0.48);
+    }
+
+    .btn:focus-visible {
+      outline: 2px solid var(--green-soft);
+      outline-offset: 3px;
+    }
+
+    .btn::after {
+      content: "";
+      width: 7px;
+      height: 7px;
+      border-top: 2px solid currentColor;
+      border-right: 2px solid currentColor;
+      transform: rotate(45deg);
+      transition: transform 180ms ease;
+      flex: 0 0 auto;
+    }
+
+    .btn:hover::after { transform: translateX(3px) rotate(45deg); }
+
+    @keyframes btn-pulse {
+      0%, 100% { box-shadow: 0 14px 34px rgba(5, 204, 118, 0.34); }
+      50% { box-shadow: 0 18px 48px rgba(35, 249, 158, 0.6); }
+    }
+
+    .btn--ghost {
+      min-height: 44px;
+      padding: 10px 22px;
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid rgba(35, 249, 158, 0.32);
+      color: var(--text);
+      box-shadow: none;
+      font-size: 0.84rem;
+    }
+
+    .btn--ghost:hover {
+      background: rgba(35, 249, 158, 0.16);
+      border-color: rgba(35, 249, 158, 0.55);
+      box-shadow: none;
+    }
+
+    .cta-note {
+      margin-top: 14px;
+      color: var(--muted-soft);
+      font-size: 0.84rem;
+    }
+
+    /* ---------- topbar ---------- */
+
+    .topbar {
+      position: fixed;
+      inset: 0 0 auto;
+      z-index: 60;
+      padding: 14px 0;
+      transition: background 240ms ease, border-color 240ms ease, backdrop-filter 240ms ease;
+      border-bottom: 1px solid transparent;
+    }
+
+    .topbar.is-stuck {
+      background: rgba(4, 18, 15, 0.86);
+      backdrop-filter: blur(14px);
+      border-bottom-color: var(--line);
+    }
+
+    .topbar .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+    }
+
+    .topbar img { width: 96px; }
+
+    .topnav {
+      display: none;
+      align-items: center;
+      gap: 28px;
+      margin-inline: auto;
+    }
+
+    .topnav a {
+      position: relative;
+      color: var(--muted);
+      font-size: 0.88rem;
+      font-weight: 550;
+      transition: color 180ms ease;
+    }
+
+    .topnav a::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: -6px;
+      width: 0;
+      height: 2px;
+      border-radius: 2px;
+      background: linear-gradient(90deg, var(--green-deep), var(--green));
+      transition: width 220ms ease;
+    }
+
+    .topnav a:hover { color: var(--text); }
+    .topnav a:hover::after { width: 100%; }
+
+    @media (min-width: 900px) {
+      .topnav { display: flex; }
+    }
+
+    @media (max-width: 560px) {
+      .topbar .btn--ghost { display: none; }
+    }
+
+    /* ---------- hero ---------- */
+
+    .hero {
+      position: relative;
+      display: grid;
+      align-items: end;
+      isolation: isolate;
+      /* ocupa a tela inteira: o carrossel so aparece depois do primeiro scroll */
+      min-height: 100vh;
+      min-height: 100svh;
+      /* o 42svh segura o CTA dentro da primeira dobra em telas mais baixas */
+      padding: min(calc(64px + 70vw), 420px, 42svh) 0 clamp(44px, 7vw, 72px);
+      overflow: hidden;
+    }
+
+    .hero-bg {
+      position: absolute;
+      inset: 0;
+      z-index: -2;
+    }
+
+    .hero-bg img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: 50% 0%;
+    }
+
+    .hero-veil {
+      position: absolute;
+      inset: 0;
+      z-index: -1;
+      pointer-events: none;
+      background: linear-gradient(
+        180deg,
+        rgba(4, 18, 15, 0.5) 0%,
+        rgba(4, 18, 15, 0.12) 24%,
+        rgba(4, 18, 15, 0.72) 48%,
+        rgba(4, 18, 15, 0.93) 68%,
+        var(--ink) 100%
+      );
+    }
+
+    .hero-inner {
+      position: relative;
+      width: min(1280px, calc(100% - 40px));
+      margin-inline: auto;
+    }
+
+    .hero p + p { margin-top: 14px; }
+    .hero .btn { margin-top: 26px; }
+
+    .hero-sign {
+      margin-top: 20px;
+      color: var(--green-soft);
+      font-size: 0.95rem;
+      font-style: italic;
+    }
+
+    .hero-trust {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px 22px;
+      margin-top: 24px;
+      color: var(--muted);
+      font-size: 0.85rem;
+    }
+
+    .hero-trust li {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .hero-trust svg { color: var(--green); flex: 0 0 auto; }
+
+    /* no mobile o texto divide a tela com a capa do livro: bloco centralizado,
+       tipografia menor e espacamento curto para o CTA caber na primeira dobra.
+       precisa vir depois das regras base do hero para vencer no empate de especificidade */
+    @media (max-width: 859px) {
+      .hero-inner > div { text-align: center; }
+
+      .hero h1 {
+        font-size: clamp(1.18rem, 5.4vw, 1.42rem);
+        text-wrap: balance;
+      }
+
+      .hero .lead { font-size: 0.85rem; line-height: 1.5; margin-top: 12px; }
+      .hero p + p { margin-top: 12px; }
+      .hero .btn { min-height: 52px; margin-top: 18px; font-size: 0.89rem; }
+      .hero-sign { margin-top: 14px; font-size: 0.86rem; }
+
+      /* os selos ocupavam duas linhas e empurravam o bloco sobre a capa do livro */
+      .hero-trust { display: none; }
+    }
+
+    @media (min-width: 860px) {
+      .hero {
+        align-items: center;
+        padding: clamp(96px, 11vh, 140px) 0 clamp(52px, 6vw, 80px);
+      }
+
+      .hero-bg img { object-position: 78% 50%; }
+
+      .hero-veil {
+        background:
+          linear-gradient(90deg, rgba(4, 18, 15, 0.8) 0%, rgba(4, 18, 15, 0.72) 34%, rgba(4, 18, 15, 0.42) 54%, rgba(4, 18, 15, 0.08) 76%, rgba(4, 18, 15, 0) 100%),
+          linear-gradient(180deg, rgba(4, 18, 15, 0.45) 0%, rgba(4, 18, 15, 0) 24%, rgba(4, 18, 15, 0) 70%, var(--ink) 100%);
+      }
+
+      .hero-inner > div { max-width: 660px; }
+    }
+
+    /* ---------- carrossel de temas ---------- */
+
+    .marquee {
+      position: relative;
+      overflow: hidden;
+      background: linear-gradient(90deg, var(--green-deep) 0%, var(--green-mid) 42%, var(--green-soft) 100%);
+      border-top: 1px solid rgba(255, 255, 255, 0.18);
+      border-bottom: 1px solid rgba(0, 0, 0, 0.24);
+    }
+
+    .marquee-track {
+      display: flex;
+      width: max-content;
+      animation: marquee-scroll 34s linear infinite;
+    }
+
+    .marquee span {
+      display: inline-flex;
+      align-items: center;
+      gap: 14px;
+      min-height: 54px;
+      padding: 0 22px;
+      color: var(--green-ink);
+      font-size: 0.79rem;
+      font-weight: 700;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      white-space: nowrap;
+    }
+
+    .marquee span::before {
+      content: "";
+      width: 7px;
+      height: 7px;
+      border-radius: 2px;
+      background: rgba(3, 35, 26, 0.72);
+      transform: rotate(45deg);
+      flex: 0 0 auto;
+    }
+
+    @keyframes marquee-scroll {
+      from { transform: translateX(0); }
+      to { transform: translateX(-50%); }
+    }
+
+    /* ---------- dobra 2: piloto automatico ---------- */
+
+    .areas {
+      display: grid;
+      gap: 14px;
+      margin-top: clamp(34px, 4.5vw, 48px);
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    }
+
+    .area {
+      position: relative;
+      padding: 26px 22px 28px;
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      border-radius: var(--radius);
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.07), rgba(255, 255, 255, 0.02));
+      overflow: hidden;
+      transition: border-color 220ms ease, transform 220ms ease, background 220ms ease;
+    }
+
+    .area::before {
+      content: "";
+      position: absolute;
+      inset: 0 0 auto;
+      height: 2px;
+      background: linear-gradient(90deg, var(--green), var(--green-soft));
+      opacity: 0;
+      transition: opacity 220ms ease;
+    }
+
+    .area:hover {
+      border-color: rgba(35, 249, 158, 0.5);
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.03));
+      transform: translateY(-3px);
+    }
+
+    .area:hover::before { opacity: 1; }
+
+    .area-icon {
+      display: grid;
+      place-items: center;
+      width: 42px;
+      height: 42px;
+      margin-bottom: 16px;
+      border-radius: 12px;
+      background: linear-gradient(135deg, rgba(5, 204, 118, 0.22), rgba(35, 249, 158, 0.1));
+      border: 1px solid rgba(35, 249, 158, 0.28);
+      color: var(--green);
+    }
+
+    .area p {
+      margin-top: 8px;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    /* ---------- dobra 3: ciencia e espiritualidade ---------- */
+
+    .steps {
+      display: grid;
+      gap: 12px;
+      margin-top: clamp(34px, 4.5vw, 48px);
+      grid-template-columns: repeat(auto-fit, minmax(178px, 1fr));
+    }
+
+    .step {
+      position: relative;
+      padding: 22px 20px 24px;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: rgba(255, 255, 255, 0.035);
+      transition: border-color 200ms ease, transform 200ms ease;
+    }
+
+    .step:hover {
+      border-color: rgba(35, 249, 158, 0.45);
+      transform: translateY(-3px);
+    }
+
+    .step-index {
+      display: block;
+      margin-bottom: 10px;
+      color: var(--green);
+      font-size: 0.74rem;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+    }
+
+    .step strong {
+      display: block;
+      font-size: 1.06rem;
+      font-weight: 700;
+      letter-spacing: -0.01em;
+    }
+
+    .step p {
+      margin-top: 6px;
+      color: var(--muted);
+      font-size: 0.88rem;
+    }
+
+    .center-cta { margin-top: clamp(34px, 4.5vw, 46px); text-align: center; }
+
+    /* ---------- dobra 4: para quem e o livro ---------- */
+
+    .split {
+      display: grid;
+      gap: clamp(34px, 5vw, 58px);
+      margin-top: clamp(38px, 5vw, 54px);
+      align-items: center;
+    }
+
+    /* quando o split abre a secao nao existe cabecalho acima dele */
+    .container > .split:first-child { margin-top: 0; }
+
+    @media (min-width: 920px) {
+      .split { grid-template-columns: 0.86fr 1.14fr; }
+    }
+
+    .arrow-list { display: grid; gap: 12px; margin-top: 28px; }
+
+    /* sem imagem ao lado, a lista ocupa a largura toda em duas colunas */
+    .arrow-list--cols {
+      margin-top: clamp(30px, 4vw, 40px);
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 14px 40px;
+    }
+
+    .arrow-list li {
+      display: flex;
+      align-items: flex-start;
+      gap: 13px;
+      color: var(--muted);
+      font-size: 1rem;
+    }
+
+    .arrow-list svg { flex: 0 0 auto; margin-top: 5px; color: var(--green); }
+
+    /* ---------- autores ---------- */
+
+    .brand-media img {
+      border-radius: var(--radius-lg);
+      border: 1px solid var(--line);
+      width: 100%;
+      aspect-ratio: 4 / 4.6;
+      object-fit: cover;
+      object-position: 50% 22%;
+    }
+
+    @media (max-width: 919px) {
+      .brand-media img { aspect-ratio: 16 / 11; }
+    }
+
+    .brand-stats {
+      display: grid;
+      gap: 12px;
+      margin-top: 28px;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+
+    .brand-stats li {
+      padding: 18px 20px;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: rgba(255, 255, 255, 0.03);
+    }
+
+    .brand-stats strong {
+      display: block;
+      font-size: 1.1rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+    }
+
+    .brand-stats span {
+      color: var(--muted);
+      font-size: 0.84rem;
+    }
+
+    /* ---------- dobra 5: oferta ---------- */
+
+    .offer {
+      background:
+        radial-gradient(88% 66% at 50% -8%, rgba(35, 249, 158, 0.32), transparent 62%),
+        radial-gradient(60% 50% at 88% 96%, rgba(5, 204, 118, 0.24), transparent 66%),
+        linear-gradient(180deg, #06392a 0%, #052018 58%, var(--ink) 100%);
+    }
+
+    .offer-shell {
+      max-width: 960px;
+      margin: clamp(34px, 4.5vw, 48px) auto 0;
+      padding: 1px;
+      border-radius: 28px;
+      background: linear-gradient(140deg, rgba(92, 246, 187, 0.95), rgba(24, 205, 157, 0.5) 46%, rgba(255, 255, 255, 0.1));
+      box-shadow: 0 40px 90px rgba(2, 16, 11, 0.7);
+    }
+
+    .offer-inner {
+      padding: clamp(28px, 4vw, 46px);
+      border-radius: 27px;
+      background: linear-gradient(158deg, #0b2b22 0%, #071c17 62%, #04120f 100%);
+      text-align: center;
+    }
+
+    .offer-title {
+      font-size: clamp(1.14rem, 2.2vw, 1.46rem);
+      font-weight: 700;
+      letter-spacing: -0.01em;
+      text-wrap: balance;
+    }
+
+    .offer-list {
+      display: grid;
+      gap: 13px;
+      max-width: 470px;
+      margin: clamp(22px, 3vw, 30px) auto 0;
+      text-align: left;
+    }
+
+    .offer-list li {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      color: var(--muted);
+      font-size: 0.97rem;
+    }
+
+    .offer-list .dot {
+      display: grid;
+      place-items: center;
+      flex: 0 0 auto;
+      width: 22px;
+      height: 22px;
+      margin-top: 2px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--green-deep), var(--green));
+      color: var(--green-ink);
+    }
+
+    /* tres plataformas de compra: UICLAP em destaque numa faixa larga,
+       Amazon e Hotmart lado a lado na linha de baixo */
+    .buy-grid {
+      display: grid;
+      gap: 16px;
+      margin: clamp(26px, 3.4vw, 34px) 0 0;
+    }
+
+    /* Amazon e Hotmart dividem a linha de baixo, cada um com o livro ao lado do conteudo */
+    .buy-row {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 16px;
+    }
+
+    /* sem mockup: so logo e botao, centralizados */
+    .buy-row .buy-card {
+      justify-content: center;
+      padding: 22px 18px 20px;
+    }
+
+    .buy-card {
+      display: flex;
+      flex-direction: column;
+      padding: 14px 14px 16px;
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      border-radius: 18px;
+      background: rgba(255, 255, 255, 0.04);
+      transition: border-color 200ms ease, background 200ms ease;
+    }
+
+    .buy-card:hover {
+      border-color: rgba(35, 249, 158, 0.42);
+      background: rgba(255, 255, 255, 0.06);
+    }
+
+    /* o card do UICLAP ocupa a linha inteira e divide mockup / conteudo */
+    .buy-card--featured {
+      display: grid;
+      grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr);
+      gap: clamp(18px, 3vw, 30px);
+      align-items: center;
+      padding: 20px;
+      border-color: rgba(35, 249, 158, 0.42);
+      background: rgba(35, 249, 158, 0.07);
+    }
+
+    /* o mockup e um PNG recortado: brilho atras no lugar de moldura */
+    .buy-mockup { position: relative; }
+
+    .buy-mockup::before {
+      content: "";
+      position: absolute;
+      inset: 4% 0 6%;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(24, 205, 157, 0.3), transparent 68%);
+      filter: blur(26px);
+      pointer-events: none;
+    }
+
+    .buy-mockup img {
+      position: relative;
+      width: 100%;
+      height: auto;
+    }
+
+    .buy-body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .buy-badge {
+      display: inline-block;
+      margin-bottom: 14px;
+      padding: 5px 15px;
+      border-radius: 999px;
+      background: linear-gradient(100deg, var(--green-deep), var(--green));
+      color: var(--green-ink);
+      font-size: 0.66rem;
+      font-weight: 750;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+    }
+
+    /* logos sao PNG sem fundo, com o texto escuro ja convertido para branco.
+       as proporcoes sao bem diferentes entre si, entao a caixa limita os dois
+       lados e o contain equilibra o tamanho optico dos tres */
+    .buy-logo {
+      width: 100%;
+      max-width: 152px;
+      height: 46px;
+      object-fit: contain;
+    }
+
+    .buy-card--featured .buy-logo { max-width: 200px; height: 60px; }
+
+    .buy-body .btn {
+      width: 100%;
+      min-height: 44px;
+      margin-top: 16px;
+      padding-inline: 14px;
+      font-size: 0.76rem;
+      box-shadow: 0 10px 24px rgba(5, 204, 118, 0.24);
+    }
+
+    .buy-card--featured .btn {
+      min-height: 56px;
+      margin-top: 20px;
+      padding-inline: 20px;
+      font-size: 0.9rem;
+      box-shadow: 0 14px 34px rgba(5, 204, 118, 0.32);
+      animation: btn-pulse 2.8s ease-in-out infinite;
+    }
+
+    .buy-grid + .cta-note { text-align: center; }
+
+    @media (max-width: 620px) {
+      .buy-card--featured { grid-template-columns: minmax(0, 1fr); }
+      .buy-card--featured .buy-mockup img { max-width: 240px; margin-inline: auto; }
+      .buy-card--featured .buy-logo { max-width: 170px; height: 52px; }
+    }
+
+    /* abaixo disso o texto do botao nao cabe em duas colunas */
+    @media (max-width: 460px) {
+      .buy-row { grid-template-columns: minmax(0, 1fr); }
+      .buy-logo { max-width: 128px; height: 40px; }
+    }
+
+    .offer-sign {
+      margin-top: clamp(30px, 4vw, 42px);
+      color: var(--green-soft);
+      font-size: clamp(1rem, 1.8vw, 1.16rem);
+      font-weight: 600;
+      text-align: center;
+      text-wrap: balance;
+    }
+
+    /* em telas estreitas o texto do CTA fica apertado */
+    @media (max-width: 480px) {
+      .buy-body .btn { padding-inline: 10px; font-size: 0.68rem; }
+      .buy-card--featured .btn { padding-inline: 14px; font-size: 0.84rem; }
+    }
+
+    /* ---------- footer ---------- */
+
+    .footer {
+      padding: 44px 0 calc(44px + env(safe-area-inset-bottom));
+      border-top: 1px solid var(--line);
+      background: var(--ink);
+    }
+
+    .footer .container {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+    }
+
+    .footer img { width: 92px; opacity: 0.85; }
+
+    .footer p {
+      color: var(--muted-soft);
+      font-size: 0.82rem;
+    }
+
+    /* ---------- barra fixa mobile ---------- */
+
+    .sticky-cta {
+      position: fixed;
+      inset: auto 0 0;
+      z-index: 70;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 14px;
+      padding: 12px 18px calc(12px + env(safe-area-inset-bottom));
+      border-top: 1px solid var(--line);
+      background: rgba(6, 26, 22, 0.94);
+      backdrop-filter: blur(14px);
+      transform: translateY(120%);
+      transition: transform 260ms ease;
+    }
+
+    .sticky-cta.is-visible { transform: none; }
+
+    .sticky-cta div { line-height: 1.25; }
+
+    .sticky-cta small {
+      display: block;
+      color: var(--muted);
+      font-size: 0.72rem;
+    }
+
+    .sticky-cta strong {
+      font-size: 1.02rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+    }
+
+    .sticky-cta .btn {
+      min-height: 46px;
+      padding: 10px 20px;
+      font-size: 0.86rem;
+      box-shadow: none;
+    }
+
+    @media (min-width: 780px) {
+      .sticky-cta { display: none; }
+    }
+
+    @media (max-width: 779px) {
+      .footer { padding-bottom: 110px; }
+    }
+
+    /* ---------- reveal ---------- */
+
+    .reveal {
+      opacity: 0;
+      transform: translateY(18px);
+      transition: opacity 620ms ease, transform 620ms ease;
+    }
+
+    .reveal.is-in { opacity: 1; transform: none; }
+
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      .reveal { opacity: 1; transform: none; transition: none; }
+      .btn, .area, .step { transition: none; }
+      .btn::before, .buy-card--featured .btn, .marquee-track { animation: none; }
+      .marquee-track { width: 100%; }
+    }
+  </style>
+
+  <noscript>
+    <style>.reveal { opacity: 1; transform: none; }</style>
+  </noscript>
+</head>
+
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PTHHVRRJ"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <header class="topbar" id="topbar">
+    <div class="container">
+      <a href="#topo" aria-label="FLUA Vivência Quântica">
+        <img src="/static/img/logo-flua.png" alt="FLUA Vivência Quântica" width="276" height="87">
+      </a>
+
+      <nav class="topnav" aria-label="Seções da página">
+        <a href="#piloto-automatico">Piloto automático</a>
+        <a href="#jornada">A jornada</a>
+        <a href="#para-quem">Para quem é</a>
+        <a href="#autores">Os autores</a>
+      </nav>
+
+      <a class="btn btn--ghost js-cta" data-cta="scroll" data-cta-label="topbar" href="#livro">Quero o livro</a>
+    </div>
+  </header>
+
+  <main id="topo">
+
+    <!-- DOBRA 1 — HERO -->
+    <section class="hero" aria-labelledby="hero-title">
+      <picture class="hero-bg">
+        <source media="(min-width: 860px)" srcset="/static/img/Livro/pc.png">
+        <img src="/static/img/Livro/mobile.png" alt="" width="1024" height="1536" fetchpriority="high">
+      </picture>
+      <div class="hero-veil" aria-hidden="true"></div>
+
+      <div class="hero-inner">
+        <div>
+          <h1 id="hero-title">E se a vida pudesse ser mais do que <span class="accent">uma sucessão de obrigações?</span></h1>
+
+          <p class="lead">Muitas pessoas vivem presas ao cansaço, à rotina e à sensação de falta de sentido.</p>
+
+          <p class="lead"><strong>FLUA</strong>, de Evaro e Rosangela, apresenta um novo olhar sobre a vida ao unir conhecimento científico, consciência e espiritualidade.</p>
+
+          <p class="lead">Uma leitura para quem deseja compreender melhor a si mesmo, ampliar suas possibilidades e construir uma vida com mais propósito, prosperidade e abundância.</p>
+
+          <a class="btn js-cta" data-cta="scroll" data-cta-label="hero" href="#livro">Quero meu livro FLUA</a>
+
+          <p class="hero-sign">Porque a vida é feita para fluir.</p>
+
+          <ul class="hero-trust">
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H19v15.5H6.5A2.5 2.5 0 0 0 4 21z"/><path d="M4 18.5A2.5 2.5 0 0 1 6.5 16H19"/></svg>
+              Livro completo
+            </li>
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l2.6 5.5 6 .8-4.4 4.2 1.1 6-5.3-2.9L6.7 19.5l1.1-6L3.4 9.3l6-.8z"/></svg>
+              Ciência e espiritualidade
+            </li>
+            <li>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M12 3l7 4v5c0 4.4-2.9 7.9-7 9-4.1-1.1-7-4.6-7-9V7z"/></svg>
+              Compra segura
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- CARROSSEL DE TEMAS -->
+    <div class="marquee" aria-label="Temas abordados no livro">
+      <div class="marquee-track">
+        <span>Saúde</span>
+        <span>Relacionamentos</span>
+        <span>Prosperidade</span>
+        <span>Propósito</span>
+        <span>Consciência</span>
+        <span>Abundância</span>
+        <span aria-hidden="true">Saúde</span>
+        <span aria-hidden="true">Relacionamentos</span>
+        <span aria-hidden="true">Prosperidade</span>
+        <span aria-hidden="true">Propósito</span>
+        <span aria-hidden="true">Consciência</span>
+        <span aria-hidden="true">Abundância</span>
+      </div>
+    </div>
+
+    <!-- DOBRA 2 — SAIA DO PILOTO AUTOMÁTICO -->
+    <section class="section section--dark" id="piloto-automatico" aria-labelledby="piloto-title">
+      <div class="container">
+        <div class="section-head section-head--center reveal">
+          <p class="eyebrow">Saia do piloto automático</p>
+          <h2 id="piloto-title">Quanto da sua vida você realmente escolhe <span class="accent">e quanto apenas repete?</span></h2>
+          <p class="lead">FLUA convida você a observar padrões, pensamentos e comportamentos que podem estar influenciando sua realidade sem que você perceba.</p>
+          <p class="lead">A partir da observação consciente e da clareza de intenção, o livro apresenta reflexões para diferentes áreas da vida:</p>
+        </div>
+
+        <ul class="areas">
+          <li class="area reveal">
+            <span class="area-icon" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.8 8.6a5 5 0 0 0-8.8-3 5 5 0 0 0-8.8 3c0 5.2 8.8 10.4 8.8 10.4s8.8-5.2 8.8-10.4z"/></svg>
+            </span>
+            <h3>Saúde</h3>
+            <p>Um novo olhar sobre o corpo, o cansaço e a forma como você cuida de si.</p>
+          </li>
+          <li class="area reveal">
+            <span class="area-icon" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.2"/><path d="M3 20c0-3.3 2.7-5.4 6-5.4S15 16.7 15 20"/><path d="M16.5 5.2a3.2 3.2 0 0 1 0 5.9"/><path d="M18 14.9c1.9.7 3 2.5 3 5.1"/></svg>
+            </span>
+            <h3>Relacionamentos</h3>
+            <p>Compreender os vínculos a partir da consciência sobre si mesmo.</p>
+          </li>
+          <li class="area reveal">
+            <span class="area-icon" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19V9"/><path d="M10 19V5"/><path d="M16 19v-8"/><path d="M21 19H3"/></svg>
+            </span>
+            <h3>Prosperidade</h3>
+            <p>Revisar crenças sobre valor, merecimento e abundância.</p>
+          </li>
+          <li class="area reveal">
+            <span class="area-icon" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.5"/><circle cx="12" cy="12" r="4"/><circle cx="12" cy="12" r="0.8" fill="currentColor"/></svg>
+            </span>
+            <h3>Propósito</h3>
+            <p>Reconhecer o que dá sentido às suas escolhas e ao seu caminho.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- DOBRA 3 — CIÊNCIA E ESPIRITUALIDADE EM UMA MESMA JORNADA -->
+    <section class="section section--deep" id="jornada" aria-labelledby="jornada-title">
+      <div class="container">
+        <div class="section-head section-head--center reveal">
+          <p class="eyebrow">A jornada</p>
+          <h2 id="jornada-title">Ciência e espiritualidade <span class="accent">em uma mesma jornada</span></h2>
+          <p class="lead">FLUA aproxima conhecimento científico e profundidade espiritual para ampliar sua percepção sobre quem você é e sobre a realidade que deseja construir.</p>
+          <p class="lead">Mais do que oferecer respostas prontas, o livro convida você a:</p>
+        </div>
+
+        <ol class="steps">
+          <li class="step reveal">
+            <span class="step-index">01</span>
+            <strong>Observar</strong>
+            <p>Perceber o que se repete antes de tentar mudar qualquer coisa.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step-index">02</span>
+            <strong>Compreender</strong>
+            <p>Entender de onde vêm os padrões que conduzem o seu dia a dia.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step-index">03</span>
+            <strong>Escolher</strong>
+            <p>Trocar a repetição automática por uma decisão consciente.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step-index">04</span>
+            <strong>Agir</strong>
+            <p>Levar a clareza de intenção para atitudes concretas.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step-index">05</span>
+            <strong>Transformar</strong>
+            <p>Construir, passo a passo, a vida que você deseja viver.</p>
+          </li>
+        </ol>
+
+        <div class="center-cta reveal">
+          <a class="btn js-cta" data-cta="scroll" data-cta-label="dobra3_jornada" href="#livro">Quero começar essa jornada</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- DOBRA 4 — PARA QUEM É O LIVRO FLUA -->
+    <section class="section section--light" id="para-quem" aria-labelledby="para-quem-title">
+      <div class="container">
+        <div class="reveal">
+          <div class="section-head">
+            <p class="eyebrow">Para quem é</p>
+            <h2 id="para-quem-title">Para quem é <span class="accent">o livro FLUA?</span></h2>
+            <p class="lead">Para quem deseja:</p>
+          </div>
+
+          <ul class="arrow-list arrow-list--cols">
+            <li>
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+              Sair do piloto automático
+            </li>
+            <li>
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+              Compreender padrões que se repetem
+            </li>
+            <li>
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+              Viver com mais consciência e propósito
+            </li>
+            <li>
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+              Buscar mais equilíbrio
+            </li>
+            <li>
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+              Transformar sua relação com saúde, relacionamentos e prosperidade
+            </li>
+            <li>
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+              Explorar seu verdadeiro potencial
+            </li>
+          </ul>
+
+          <a class="btn js-cta" data-cta="scroll" data-cta-label="dobra4_para_quem" href="#livro" style="margin-top:34px">Quero meu livro FLUA</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- OS AUTORES -->
+    <section class="section section--dark" id="autores" aria-labelledby="autores-title">
+      <div class="container">
+        <div class="split">
+          <div class="brand-media reveal">
+            <img src="/static/img/as-chaves-dos-relacionamentos/fundadores-flua.webp" alt="Evaro e Rosangela, autores do livro FLUA" width="860" height="1075" loading="lazy">
+          </div>
+
+          <div class="reveal">
+            <p class="eyebrow">Os autores</p>
+            <h2 id="autores-title">Um livro assinado por <span class="accent">Evaro e Rosangela</span></h2>
+            <p class="lead">Fundadores da FLUA, Evaro e Rosangela levam para o livro a mesma proposta que orienta todo o seu trabalho: aproximar conhecimento científico, consciência e espiritualidade em uma linguagem acessível.</p>
+            <p class="lead">FLUA nasce desse encontro: um convite a olhar para a própria história com mais consciência e descobrir novas possibilidades para o caminho que você deseja construir.</p>
+
+            <ul class="brand-stats">
+              <li><strong>Ciência e consciência</strong><span>Dois olhares em uma mesma leitura</span></li>
+              <li><strong>Aplicável ao dia a dia</strong><span>Reflexões para a vida como ela é</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DOBRA 5 — A TRANSFORMAÇÃO COMEÇA COM UMA NOVA FORMA DE OLHAR -->
+    <section class="section offer" id="livro" aria-labelledby="livro-title">
+      <div class="container">
+        <div class="section-head section-head--center reveal">
+          <p class="eyebrow">A decisão</p>
+          <h2 id="livro-title">A transformação começa com <span class="accent">uma nova forma de olhar</span></h2>
+          <p class="lead">Você não precisa ter todas as respostas. Talvez precise começar fazendo novas perguntas.</p>
+          <p class="lead">FLUA pode ser o primeiro passo para olhar para sua história com mais consciência e descobrir novas possibilidades para o caminho que deseja construir.</p>
+        </div>
+
+        <div class="offer-shell reveal">
+          <div class="offer-inner">
+            <p class="offer-title">Descubra o seu potencial para viver com mais propósito, prosperidade e abundância.</p>
+
+            <ul class="offer-list">
+              <li>
+                <span class="dot" aria-hidden="true"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg></span>
+                Um novo olhar sobre a vida, do cansaço ao sentido
+              </li>
+              <li>
+                <span class="dot" aria-hidden="true"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg></span>
+                Conhecimento científico, consciência e espiritualidade
+              </li>
+              <li>
+                <span class="dot" aria-hidden="true"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg></span>
+                Reflexões para saúde, relacionamentos, prosperidade e propósito
+              </li>
+              <li>
+                <span class="dot" aria-hidden="true"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg></span>
+                Um convite a observar, compreender, escolher, agir e transformar
+              </li>
+            </ul>
+
+            <div class="buy-grid">
+              <article class="buy-card buy-card--featured">
+                <div class="buy-mockup">
+                  <img src="/static/img/Livro/mockup-livro.png" alt="Livro FLUA, frente e verso" width="756" height="589" loading="lazy">
+                </div>
+                <div class="buy-body">
+                  <p class="buy-badge">Sugestão</p>
+                  <img class="buy-logo" src="/static/img/Livro/logo-uiclap.png" alt="UICLAP" width="192" height="37" loading="lazy">
+                  <a class="btn js-cta" data-cta="checkout" data-cta-label="oferta_uiclap"
+                     href="https://loja.uiclap.com/titulo/ua163679">Quero adquirir o livro FLUA</a>
+                </div>
+              </article>
+
+              <div class="buy-row">
+                <article class="buy-card">
+                  <div class="buy-body">
+                    <img class="buy-logo" src="/static/img/Livro/logo-amazon.png" alt="Amazon" width="266" height="81" loading="lazy">
+                    <a class="btn js-cta" data-cta="checkout" data-cta-label="oferta_amazon"
+                       href="https://www.amazon.com.br/dp/B0H8QNCH6Y">Quero adquirir o livro FLUA</a>
+                  </div>
+                </article>
+
+                <article class="buy-card">
+                  <div class="buy-body">
+                    <img class="buy-logo" src="/static/img/Livro/logo-hotmart.png" alt="Hotmart" width="208" height="71" loading="lazy">
+                    <a class="btn js-cta" data-cta="checkout" data-cta-label="oferta_hotmart"
+                       href="https://hotmart.com/pt-br/marketplace/produtos/flua-descubra-seu-potencial-e-transforme-sua-vida/P106090066Y">Quero adquirir o livro FLUA</a>
+                  </div>
+                </article>
+              </div>
+            </div>
+
+            <p class="cta-note">Escolha a plataforma de sua preferência para concluir a compra.</p>
+          </div>
+        </div>
+
+        <p class="offer-sign reveal">FLUA. Porque a vida é feita para fluir.</p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <img src="/static/img/logo-flua.png" alt="FLUA Vivência Quântica" width="276" height="87" loading="lazy">
+      <p>Todos os direitos reservados © FLUA Vivência Quântica</p>
+      <p>Produzido por V4 Company Lisboa &amp; Co</p>
+    </div>
+  </footer>
+
+  <div class="sticky-cta" id="stickyCta">
+    <div>
+      <small>Livro FLUA</small>
+      <strong>Garanta o seu</strong>
+    </div>
+    <a class="btn js-cta" data-cta="scroll" data-cta-label="sticky_mobile" href="#livro">Quero o livro</a>
+  </div>
+
+  <script>
+    (function () {
+      /* =====================================================================
+         Cada loja tem seu proprio link, declarado no href do botao
+         (data-cta="checkout"): Uiclap, Amazon e Hotmart.
+         Aqui so anexamos as UTMs da visita e abrimos em nova aba.
+         Os botoes com data-cta="scroll" apenas levam ate a dobra da oferta.
+         ===================================================================== */
+      var ctas = document.querySelectorAll(".js-cta");
+
+      function aplicarCheckout() {
+        ctas.forEach(function (el) {
+          if (el.dataset.cta !== "checkout") return;
+          if (window.fluaWithUtms) el.href = window.fluaWithUtms(el.href);
+          el.target = "_blank";
+          el.rel = "noopener";
+        });
+      }
+
+      /* o tracking.js e "defer", entao so existe depois do parse do documento:
+         montar os hrefs antes disso perderia as UTMs da visita */
+      if (window.fluaWithUtms) {
+        aplicarCheckout();
+      } else {
+        document.addEventListener("DOMContentLoaded", aplicarCheckout);
+      }
+
+      window.trackCTA = window.trackCTA || function (label) {
+        if (window.fluaTrack) {
+          window.fluaTrack("click_cta", { cta_label: label || "cta_flua" });
+        } else {
+          window.dataLayer = window.dataLayer || [];
+          window.dataLayer.push({ event: "click_cta", cta_label: label || "cta_flua" });
+        }
+      };
+
+      ctas.forEach(function (el) {
+        el.addEventListener("click", function () {
+          window.trackCTA(el.dataset.ctaLabel || el.textContent.trim());
+        });
+      });
+
+      /* topbar ganha fundo apos o scroll + barra fixa mobile aparece depois do hero */
+      var topbar = document.getElementById("topbar");
+      var sticky = document.getElementById("stickyCta");
+      var offer = document.getElementById("livro");
+
+      function onScroll() {
+        var y = window.scrollY;
+        topbar.classList.toggle("is-stuck", y > 40);
+
+        var offerTop = offer.getBoundingClientRect().top;
+        var passedHero = y > window.innerHeight * 0.75;
+        var insideOffer = offerTop < window.innerHeight * 0.7 && offerTop > -offer.offsetHeight;
+        sticky.classList.toggle("is-visible", passedHero && !insideOffer);
+      }
+
+      onScroll();
+      window.addEventListener("scroll", onScroll, { passive: true });
+
+      /* animacao de entrada */
+      var targets = [].slice.call(document.querySelectorAll(".reveal"));
+      var reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+      if (reduced || !("IntersectionObserver" in window)) {
+        targets.forEach(function (el) { el.classList.add("is-in"); });
+      } else {
+        var observer = new IntersectionObserver(function (entries) {
+          entries.forEach(function (entry) {
+            if (!entry.isIntersecting) return;
+            entry.target.classList.add("is-in");
+            observer.unobserve(entry.target);
+          });
+        }, { rootMargin: "0px 0px -12% 0px", threshold: 0.08 });
+
+        targets.forEach(function (el, i) {
+          el.style.transitionDelay = (i % 4) * 70 + "ms";
+          observer.observe(el);
+        });
+
+        /* rede de seguranca: nenhum bloco pode ficar invisivel por falha da animacao */
+        setTimeout(function () {
+          targets.forEach(function (el) { el.classList.add("is-in"); });
+        }, 3000);
+      }
+    })();
+  </script>
+</body>
+</html>
